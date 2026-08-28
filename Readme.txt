@@ -38,3 +38,5 @@ PR is merged to main branch
 git checkout main
 
 git pull
+
+hello world
