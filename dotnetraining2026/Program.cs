@@ -1,15 +1,19 @@
-﻿Console.WriteLine("Enter first number:");
-int a = Convert.ToInt32(Console.ReadLine());
+﻿
 
-Console.WriteLine("Enter second number:");
-int b = Convert.ToInt32(Console.ReadLine());
+// Question 12
 
-if (a == b)
+int i = 1;
+int sum3 = 0;
+
+while (i <= 100)
 {
-    Console.WriteLine("Both numbers are equal");
+    sum3 = sum3 + i;
+    i++;
 }
-else
-{
-    Console.WriteLine("Both numbers are not equal");
-}
+
+Console.WriteLine("Sum = " + sum3);
+
+
+
+
 
