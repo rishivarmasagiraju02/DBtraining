@@ -1,0 +1,18 @@
+﻿Employee employee1= new Employee (101,"John",30,"Information technology",7500);
+Employee employee2= new Employee( 102,"Brad", 27,"HR",8000);
+employee1.setSalary(9000m);
+employee1.setSalary(-5000);
+employee1.DisplayEmployee();
+employee2.DisplayEmployee();
+Developer developer1 = new Developer(103, "Sam", 25, "IT", 7000m, "C#");
+Manager manager1 = new Manager(104, "David", 35, "Management", 10000m, 5);
+developer1.DisplayEmployee();
+Console.WriteLine("Programming Language: " + developer1.ProgrammingLanguage);
+manager1.DisplayEmployee();
+Console.WriteLine("Team Size: " + manager1.TeamSize);
+developer1.WriteCode();
+manager1.ConductMeeting();
+Employee employee3 = new Developer(201, "Maya", 27, "Engineering", 82000m, "C#");
+Employee employee4 = new Manager(301, "Sarah", 35, "Management", 95000m, 10);
+employee3.Work();
+employee4.Work();
